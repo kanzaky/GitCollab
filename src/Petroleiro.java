@@ -1,3 +1,6 @@
+/**
+ * Classe Petroleiro
+ */
 public class Petroleiro extends Navio{
     private float cargo;
     public Petroleiro(String registration) {

@@ -1,3 +1,6 @@
+/**
+ * Classe Navio
+ */
 public class Navio {
     private String registration;
     private String name;

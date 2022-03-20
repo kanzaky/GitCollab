@@ -1,3 +1,6 @@
+/**
+ * Classe Porto
+ */
 public class Porto {
     private int qntNavios;
     private int MaxNavios;
@@ -17,6 +20,9 @@ public class Porto {
         return MaxNavios;
     }
 
+    /**
+     * @param x Metodo Adicionar Novo Navio
+     */
     public void newNavio(Navio x){
         if(qntNavios == MaxNavios) {
             System.out.println("No máximo de navios " + MaxNavios + "");
@@ -35,6 +41,9 @@ public class Porto {
         }
     }
 
+    /**
+     * @return Metodo para receber número da capacidade Total
+     */
     public float getTotalCapacity(){
         float total = 0;
         for(int i=0; i<qntNavios; i++){

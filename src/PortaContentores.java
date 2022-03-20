@@ -1,3 +1,6 @@
+/**
+ * Classe PortaPetroleiro
+ */
 public class PortaContentores extends Navio{
     private int XContentores;
     public PortaContentores(String registration) {
